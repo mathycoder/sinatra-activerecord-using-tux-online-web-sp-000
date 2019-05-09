@@ -10,3 +10,7 @@ ActiveRecord::Base.establish_connection(
 
 require './app'
 require_all 'models'
+
+# production -- live on a site 
+# development -- where most developers play with their code  
+# test environment
